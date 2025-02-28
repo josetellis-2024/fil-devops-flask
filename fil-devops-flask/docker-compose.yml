@@ -1,0 +1,21 @@
+
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: gpay-api
+    ports:
+      - "5000:5000"
+    environment:
+      - FLASK_APP=app
+      - FLASK_ENV=development
+      - SNOWFLAKE_USER=Ankur
+      - SNOWFLAKE_PASSWORD=bTJawBrXFJb4VyE
+      - SNOWFLAKE_ACCOUNT=ut20337.ap-southeast-1
+      - SNOWFLAKE_DATABASE=TRIAL_DB
+      - SNOWFLAKE_SCHEMA=TRIAL_SCMA
+      - SNOWFLAKE_WAREHOUSE=compute_wh
+    volumes:
+      - .:/app
+    restart: unless-stopped

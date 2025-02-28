@@ -1,0 +1,8 @@
+Flask
+Flask-SQLAlchemy
+python-dotenv
+snowflake-connector-python
+snowflake-sqlalchemy
+pytest
+pytest-flask
+gunicorn

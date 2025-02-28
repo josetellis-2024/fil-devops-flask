@@ -1,0 +1,53 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: gpay-api
+  labels:
+    app: gpay-api
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: gpay-api
+  template:
+    metadata:
+      labels:
+        app: gpay-api
+    spec:
+      containers:
+        - name: gpay-api
+          image: gpay-api:latest
+          imagePullPolicy: Never
+          ports:
+            - containerPort: 5000
+          env:
+            - name: FLASK_ENV
+              value: production
+            - name: SNOWFLAKE_USER
+              value: "Ankur"
+            - name: SNOWFLAKE_PASSWORD
+              value: "bTJawBrXFJb4VyE"
+            - name: SNOWFLAKE_ACCOUNT
+              value: "ut20337.ap-southeast-1"
+            - name: SNOWFLAKE_DATABASE
+              value: "TRIAL_DB"
+            - name: SNOWFLAKE_SCHEMA
+              value: "TRIAL_SCMA"
+            - name: SNOWFLAKE_WAREHOUSE
+              value: "compute_wh"
+          resources:
+            limits:
+              memory: "256Mi"
+              cpu: "200m"
+          readinessProbe:
+            httpGet:
+              path: /v1/gpay/getall
+              port: 5000
+            initialDelaySeconds: 5
+            periodSeconds: 10
+          livenessProbe:
+            httpGet:
+              path: /v1/gpay/getall
+              port: 5000
+            initialDelaySeconds: 15
+            periodSeconds: 20
