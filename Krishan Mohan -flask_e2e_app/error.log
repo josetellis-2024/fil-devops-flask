@@ -1,0 +1,92 @@
+2025-02-28 14:32:04,938 - WARNING -  * Debugger is active!
+2025-02-28 14:32:04,943 - INFO -  * Debugger PIN: 580-662-744
+2025-02-28 14:33:07,964 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.27.140:5000
+2025-02-28 14:33:07,965 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-28 14:33:07,966 - INFO -  * Restarting with stat
+2025-02-28 14:33:08,668 - WARNING -  * Debugger is active!
+2025-02-28 14:33:08,672 - INFO -  * Debugger PIN: 580-662-744
+2025-02-28 14:33:17,240 - ERROR - Error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-02-28 14:33:17,243 - INFO - 127.0.0.1 - - [28/Feb/2025 14:33:17] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-02-28 14:33:17,960 - ERROR - Error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-02-28 14:33:17,960 - INFO - 127.0.0.1 - - [28/Feb/2025 14:33:17] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-02-28 14:33:54,232 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.27.140:5000
+2025-02-28 14:33:54,232 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-28 14:33:54,233 - INFO -  * Restarting with stat
+2025-02-28 14:33:54,909 - WARNING -  * Debugger is active!
+2025-02-28 14:33:54,913 - INFO -  * Debugger PIN: 580-662-744
+2025-02-28 14:34:09,315 - ERROR - Error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-02-28 14:34:09,317 - INFO - 192.168.27.140 - - [28/Feb/2025 14:34:09] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-02-28 14:34:09,989 - ERROR - Error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-02-28 14:34:09,991 - INFO - 192.168.27.140 - - [28/Feb/2025 14:34:09] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-02-28 14:34:29,373 - INFO -  * Detected change in 'C:\\flask_e2e_app\\app.py', reloading
+2025-02-28 14:34:29,487 - INFO -  * Restarting with stat
+2025-02-28 14:34:36,900 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.27.140:5000
+2025-02-28 14:34:36,900 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-28 14:34:36,902 - INFO -  * Restarting with stat
+2025-02-28 14:34:37,550 - WARNING -  * Debugger is active!
+2025-02-28 14:34:37,555 - INFO -  * Debugger PIN: 580-662-744
+2025-02-28 14:34:45,492 - ERROR - Error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-02-28 14:34:45,494 - INFO - 127.0.0.1 - - [28/Feb/2025 14:34:45] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-02-28 14:34:46,168 - ERROR - Error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-02-28 14:34:46,169 - INFO - 127.0.0.1 - - [28/Feb/2025 14:34:46] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-02-28 14:43:28,248 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.27.140:5000
+2025-02-28 14:43:28,249 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-28 14:43:28,250 - INFO -  * Restarting with stat
+2025-02-28 14:43:28,905 - WARNING -  * Debugger is active!
+2025-02-28 14:43:28,918 - INFO -  * Debugger PIN: 580-662-744
+2025-02-28 14:43:35,386 - ERROR - Error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-02-28 14:43:35,387 - INFO - 127.0.0.1 - - [28/Feb/2025 14:43:35] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-02-28 14:43:35,915 - ERROR - Error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-02-28 14:43:35,915 - INFO - 127.0.0.1 - - [28/Feb/2025 14:43:35] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-02-28 14:43:56,547 - INFO - 127.0.0.1 - - [28/Feb/2025 14:43:56] "GET /v1/gpay/getall HTTP/1.1" 200 -
+2025-02-28 14:43:56,705 - ERROR - Error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-02-28 14:43:56,706 - INFO - 127.0.0.1 - - [28/Feb/2025 14:43:56] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-02-28 14:45:23,326 - INFO -  * Detected change in 'C:\\flask_e2e_app\\app.py', reloading
+2025-02-28 14:45:23,477 - INFO -  * Restarting with stat
+2025-02-28 14:45:24,396 - WARNING -  * Debugger is active!
+2025-02-28 14:45:24,401 - INFO -  * Debugger PIN: 580-662-744
+2025-02-28 14:45:28,922 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.27.140:5000
+2025-02-28 14:45:28,923 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-28 14:45:28,925 - INFO -  * Restarting with stat
+2025-02-28 14:45:29,579 - WARNING -  * Debugger is active!
+2025-02-28 14:45:29,583 - INFO -  * Debugger PIN: 580-662-744
+2025-02-28 14:45:34,829 - INFO - 127.0.0.1 - - [28/Feb/2025 14:45:34] "GET /v1/gpay/getall HTTP/1.1" 200 -
+2025-02-28 14:45:34,961 - ERROR - Error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-02-28 14:45:34,961 - INFO - 127.0.0.1 - - [28/Feb/2025 14:45:34] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-02-28 14:45:37,092 - INFO - 127.0.0.1 - - [28/Feb/2025 14:45:37] "GET / HTTP/1.1" 200 -
+2025-02-28 14:45:37,250 - ERROR - Error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-02-28 14:45:37,252 - INFO - 127.0.0.1 - - [28/Feb/2025 14:45:37] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-02-28 09:45:23,595 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.2:5000
+2025-02-28 09:45:23,595 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-28 09:45:23,596 - INFO -  * Restarting with stat
+2025-02-28 09:45:23,994 - WARNING -  * Debugger is active!
+2025-02-28 09:45:24,004 - INFO -  * Debugger PIN: 129-966-518
+2025-02-28 09:45:42,304 - INFO - 172.18.0.1 - - [28/Feb/2025 09:45:42] "GET / HTTP/1.1" 200 -
+2025-02-28 09:45:42,851 - ERROR - Error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-02-28 09:45:42,854 - INFO - 172.18.0.1 - - [28/Feb/2025 09:45:42] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-02-28 09:48:42,722 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.2:5000
+2025-02-28 09:48:42,722 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-28 09:48:42,723 - INFO -  * Restarting with stat
+2025-02-28 09:48:43,074 - WARNING -  * Debugger is active!
+2025-02-28 09:48:43,075 - INFO -  * Debugger PIN: 124-192-772

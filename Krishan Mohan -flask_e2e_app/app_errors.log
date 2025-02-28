@@ -1,0 +1,14 @@
+2025-02-28 14:28:54,405 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.27.140:5000
+2025-02-28 14:28:54,406 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-28 14:28:54,407 - INFO -  * Restarting with stat
+2025-02-28 14:28:55,089 - WARNING -  * Debugger is active!
+2025-02-28 14:28:55,104 - INFO -  * Debugger PIN: 580-662-744
+2025-02-28 14:29:48,210 - ERROR - Unexpected Error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-02-28 14:29:48,212 - INFO - 127.0.0.1 - - [28/Feb/2025 14:29:48] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-02-28 14:29:48,727 - ERROR - Unexpected Error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-02-28 14:29:48,727 - INFO - 127.0.0.1 - - [28/Feb/2025 14:29:48] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-02-28 14:32:04,053 - INFO -  * Detected change in 'C:\\flask_e2e_app\\error_handler.py', reloading
+2025-02-28 14:32:04,149 - INFO -  * Restarting with stat

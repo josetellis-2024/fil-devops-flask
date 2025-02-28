@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: flask-e2e-app
+spec:
+  replicas: 2  # Running 2 Pods
+  selector:
+    matchLabels:
+      app: flask-e2e
+  template:
+    metadata:
+      labels:
+        app: flask-e2e
+    spec:
+      containers:
+        - name: flask-e2e-container
+          image: kris007u/flask_e2e_app-web:latest  # Your DockerHub image
+          ports:
+            - containerPort: 5000
