@@ -1,0 +1,20 @@
+services:
+  web:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    container_name: flask-bank-app
+    ports:
+      - "5000:5000"
+    environment:
+      - FLASK_APP=app.py
+      - FLASK_DEBUG=1
+    volumes:
+      - .:/app
+    restart: always
+    networks:
+      - flask-network
+
+networks:
+  flask-network:
+    driver: bridge
