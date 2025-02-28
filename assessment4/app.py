@@ -14,10 +14,12 @@ def get_db_connection():
         schema='FIL_SCHEMA'
     )
 
+# Homepage route
 @app.route("/", methods=["GET"])
 def homepage():
     return jsonify({"message": "Welcome to the Flask E2E Banking API!"})
 
+# Get all transactions
 @app.route('/v1/gpay/getall', methods=['GET'])
 def get_all():
     try:
@@ -33,6 +35,7 @@ def get_all():
     except Exception as e:
         return jsonify({"error": str(e)}), 400
 
+# Get transaction by customer ID
 @app.route('/v1/gpay/getById/<custId>', methods=['GET'])
 def get_by_id(custId):
     try:
@@ -48,6 +51,7 @@ def get_by_id(custId):
     except Exception as e:
         return jsonify({"error": str(e)}), 400
 
+# Get transaction by transaction ID
 @app.route('/v1/gpay/getBytransId/<transId>', methods=['GET'])
 def get_transaction_by_transId(transId):
     try:
@@ -65,6 +69,7 @@ def get_transaction_by_transId(transId):
     except Exception as e:
         return jsonify({"error": str(e)}), 400
 
+# Get transactions between two dates
 @app.route('/v1/gpay/getByDate/<from_date>/<to_date>', methods=['GET'])
 def get_transactions_by_date(from_date, to_date):
     try:
@@ -80,6 +85,7 @@ def get_transactions_by_date(from_date, to_date):
     except Exception as e:
         return jsonify({"error": str(e)}), 400
 
+# Get transactions by month
 @app.route('/v1/gpay/getByMonth/<month>', methods=['GET'])
 def get_by_month(month):
     try:
@@ -95,6 +101,7 @@ def get_by_month(month):
     except Exception as e:
         return jsonify({"error": str(e)}), 400
 
+# Add a new transaction
 @app.route('/v1/gpay/addTransaction', methods=['POST'])
 def add_transaction():
     try:
@@ -120,6 +127,7 @@ def add_transaction():
     except Exception as e:
         return jsonify({"error": str(e)}), 400
 
+# Update a transaction by customer ID
 @app.route('/v1/gpay/updateById/<custId>', methods=['PUT'])
 def update_transaction(custId):
     try:
@@ -144,6 +152,7 @@ def update_transaction(custId):
     except Exception as e:
         return jsonify({"error": str(e)}), 400
 
+# Delete a transaction by customer ID
 @app.route('/v1/gpay/deleteById/<custId>', methods=['DELETE'])
 def delete_transaction(custId):
     try:
@@ -157,6 +166,7 @@ def delete_transaction(custId):
     except Exception as e:
         return jsonify({"error": str(e)}), 400
 
+# Test route to check API status
 @app.route('/v1/gpay/test', methods=['GET'])
 def test():
     return jsonify({"message": "API is running successfully!"})
