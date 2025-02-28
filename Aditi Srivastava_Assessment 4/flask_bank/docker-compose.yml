@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  flask_app:
+    build: .
+    container_name: flask_bank_app
+    ports:
+      - "5000:5000"
+    environment:
+      - FLASK_APP=app.py
+      - FLASK_RUN_HOST=0.0.0.0
+    volumes:
+      - .:/app  # Mounts your project folder into the container (optional for development)

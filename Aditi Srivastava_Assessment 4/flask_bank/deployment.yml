@@ -1,0 +1,35 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: flask-bank-app
+spec:
+  replicas: 2  # Number of Pods
+  selector:
+    matchLabels:
+      app: flask-bank
+  template:
+    metadata:
+      labels:
+        app: flask-bank
+    spec:
+      containers:
+      - name: flask-bank-container
+        image: aditisri1311/flask_bank-flask_app:latest  # Your Docker Hub image
+        ports:
+        - containerPort: 5000  # Flask default port
+        env:
+        - name: MONGO_URI
+          value: "mongodb+srv://<username>:<password>@cluster.mongodb.net/<dbname>"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: flask-bank-service
+spec:
+  selector:
+    app: flask-bank
+  ports:
+    - protocol: TCP
+      port: 80  # Exposed service port
+      targetPort: 5000  # Flask container port
+  type: LoadBalancer  # Change to ClusterIP if used within cluster
