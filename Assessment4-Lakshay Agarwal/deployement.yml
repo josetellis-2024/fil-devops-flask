@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: flask-bank-app
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: flask-bank
+  template:
+    metadata:
+      labels:
+        app: flask-bank
+    spec:
+      containers:
+      - name: flask-bank
+        image: 633lakshay/assessment4-lakshayagarwal-flask_app:latest
+        ports:
+        - containerPort: 5000
